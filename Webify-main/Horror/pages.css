@@ -29,6 +29,7 @@ body{
     border-radius: 2%;
     min-height: 350px;
     padding: 2%;
+    min-width: 900px;
     margin-top: -360px;
     margin-left: 320px;
 }
