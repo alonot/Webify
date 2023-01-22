@@ -23,10 +23,11 @@ margining(ids.indexOf(tlotr),2);
 for(let i=0;i<5;i++){
   ids[i].onclick=function() {clicked(i)};
 }
-  window.onresize=function() {refresh(0)};
-function resize(){
+function refresh(){
   location.reload();
 }
+  window.onresize=function() {refresh()};
+
 
 function clicked(position){
   const aa=ids[position].children[0];
