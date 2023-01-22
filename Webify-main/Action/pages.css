@@ -28,6 +28,8 @@ body{
 #content{
     border-radius: 2%;
     padding: 2%;
+    
+    min-width: 900px;
     min-height: 350px;
     margin-top: -360px;
     margin-left: 320px;
