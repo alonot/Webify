@@ -31,6 +31,8 @@ body{
     min-height: 350px;
     padding: 2%;
     margin-top: -360px;
+    
+    min-width: 900px;
     margin-left: 320px;
 }
 #heading{
